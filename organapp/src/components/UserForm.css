@@ -1,0 +1,255 @@
+.userFormBackground {
+    background-color: #146854;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.userFormContainer {
+    width: 328px;
+    height: 395px;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 18px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    gap: 55px;
+}
+
+.userFormBottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.userFormBottom button {
+    margin-top: 50px;
+    width: 286px;
+    height: 62px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.userFormTop img {
+    width: 166px;
+    height: 30px;
+}
+
+.userFormTop p {
+    width: 304px;
+    height: 38px;
+}
+
+.userFormBottom p {
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+    align-self: center;
+    margin-left: 130px;
+}
+
+.userFormTop {
+    display: flex;
+    flex-direction: column;
+    width: 304px;
+    margin-bottom: 40px;
+    color: white;
+    gap: 10px;
+}
+
+.userFormContainer input {
+    width: 263px;
+    height: 42px;
+    border: 0.8px solid #C4C4C4;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+}
+
+.chooseContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100vh;
+}
+
+.progress img {
+    width: 330px;
+    height: 10px;
+    margin-top: 25px;
+}
+
+.topChooseContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 333px;
+    height: 270px;
+}
+
+.topChooseContainer button {
+    border: 0.8px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 137px;
+    height: 176px;
+    background: transparent;
+    font-weight: 600;
+}
+
+.topChooseContainer p {
+    font-weight: 600;
+    width: 90%;
+    margin-left: 12px;
+    margin-top: 40px;
+}
+
+.buttoncontainer {
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.buttoncontainer img {
+    width: 80%;
+    margin-top: 10px;
+}
+
+.exit {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    padding-left: 30px;
+    margin-top: 80px;
+}
+
+.exit button {
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.exit img {
+    width: 12px;
+    height: 12px;
+}
+
+.inputContainerB {
+    display: flex;
+    gap: 10px;
+}
+
+.inputContainerB input {
+    margin-top: 50px;
+    width: 70px;
+    height: 41px;
+    text-align: center;
+    border: 0.8px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.Continue button {
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    width: 122px;
+    height: 39px;
+    background: #146854;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#resizeButton {
+    width: 95px;
+}
+
+.Continue {
+    position: absolute;
+    top: 800px;
+}
+
+.topChooseContainer select {
+    width: 311px;
+    height: 42px;
+    border: 0.8px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.ratingContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.ratingContainer p {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.ratingContainer button {
+    width: 30px;
+    height: 27.57px;
+    border-radius: 50%;
+}
+
+.Rating {
+    align-items: center;
+}
+
+.ratingButtonContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+#question4 {
+    margin-top: 112px;
+}
+
+#recepientContainer img {
+    width: 400px;
+}
+
+.descriptionRecepient {
+    width: 380px;
+    height: 169px;
+    border: 0.8px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-bottom: 100px;
+}
+
+.titleRecepient {
+    width: 380px;
+    height: 41px;
+    padding-left: 10px;
+    border: 0.8px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.pContainerY {
+    margin-top: 150px;
+}

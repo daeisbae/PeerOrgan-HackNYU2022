@@ -1,0 +1,200 @@
+.donorHomeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.donorTop {
+    width: 366px;
+    margin-top: 60px;
+}
+
+.donorList {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.donorTopTitle img {
+    width: 300;
+    height: 35px;
+}
+
+.donorTopDesc {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.donorTopDesc p {
+    margin-top: 10px;
+    font-weight: 400;
+}
+.recipientDiv {
+    width: 366px;
+    height: 162px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(20, 104, 84, 0.03);
+    border: 0.5px solid #2d927b;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.recipientImg img {
+    width: 120px;
+    height: 128px;
+    border-radius: 10px;
+    margin-left: 6px;
+}
+
+.recipientDescription {
+    margin-left: 10px;
+}
+
+.recipientDescription p {
+    font-size: 11px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 9px;
+    width: 195px; 
+
+}
+
+.recipientDescription a {
+    font-size: 12px;
+    font-weight: 600;
+    color: #146854;
+}
+
+#smaller {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+}
+
+#down {
+    position: relative;
+    top: 3px;
+    width: 14px;
+    height: 14px;
+}
+
+.donorExampleContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 403px;
+}
+
+.donorTopTitle {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 333px;
+    display: flex;
+}
+
+.titleInfo {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 33px;
+}
+
+.titleInfo h3 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.titleInfo p {
+    font-weight: 500;
+}
+
+.buttonInfo {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.buttonInfo div {
+    display: flex;
+    height: 22px;
+    border-radius: 15px;
+    border: none;
+    padding-left: 10px;
+}
+
+.buttonInfo p {
+    margin-top: 6px;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 11px;
+}
+
+.buttonInfo h4 {
+    font-weight: normal;
+    position: relative;
+    right: 8px;
+}
+
+.bloodIcon {
+    width: 95px;
+    background: rgba(100, 188, 214, 0.38);
+}
+
+.organIcon {
+    width: 86px;
+    background: rgba(239, 168, 183, 0.54);
+}
+
+.ageIcon {
+    width: 60px;
+    background: rgba(255, 138, 0, 0.38);
+}
+
+.contactButton {
+    margin-top: 37px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+
+.contactButton button {
+    width: 174px;
+    height: 48px;
+    border: none;
+    font-weight: normal;
+    font-size: 16px;
+    color: white;
+    background: #146854;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.recepientInformation {
+    display: flex;
+}
+
+.recepientInformation img {
+    margin-top: 5px;
+}
+
+.donorExampleDescription h3, p {
+    margin-top: 30px;
+    width: 366px;
+}
+
+.donorExampleDescription h3 {
+    font-weight: 600;
+}
+
+
+
+
